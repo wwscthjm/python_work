@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{9ee88246-12b3-440c-b9f7-049744c08c8e}</ProjectGuid>
     <ProjectHome />
-    <StartupFile>apostrophe.py</StartupFile>
+    <StartupFile>name_cases.py</StartupFile>
     <SearchPath />
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
@@ -22,6 +22,9 @@
     <Compile Include="apostrophe.py" />
     <Compile Include="hello_world.py" />
     <Compile Include="name.py" />
+    <Compile Include="name_cases.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
 </Project>
