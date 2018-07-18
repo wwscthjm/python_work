@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{9ee88246-12b3-440c-b9f7-049744c08c8e}</ProjectGuid>
     <ProjectHome />
-    <StartupFile>name_cases.py</StartupFile>
+    <StartupFile>motorcycles.py</StartupFile>
     <SearchPath />
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
@@ -20,7 +20,13 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="apostrophe.py" />
+    <Compile Include="bicycles.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="hello_world.py" />
+    <Compile Include="motorcycles.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="name.py" />
     <Compile Include="name_cases.py">
       <SubType>Code</SubType>
