@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{9ee88246-12b3-440c-b9f7-049744c08c8e}</ProjectGuid>
     <ProjectHome />
-    <StartupFile>squares.py</StartupFile>
+    <StartupFile>dimensions.py</StartupFile>
     <SearchPath />
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
@@ -26,7 +26,13 @@
     <Compile Include="car.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="dimensions.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="even_numbers.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="foods.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="hello_world.py" />
@@ -41,6 +47,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="number.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="players.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="squares.py">
