@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{9ee88246-12b3-440c-b9f7-049744c08c8e}</ProjectGuid>
     <ProjectHome />
-    <StartupFile>dimensions.py</StartupFile>
+    <StartupFile>alien.py</StartupFile>
     <SearchPath />
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
@@ -19,11 +19,23 @@
     <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="alien.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="amusement_park.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="apostrophe.py" />
+    <Compile Include="banned_users.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="bicycles.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="car.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="cars.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="dimensions.py">
@@ -37,6 +49,9 @@
     </Compile>
     <Compile Include="hello_world.py" />
     <Compile Include="magicians.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="magic_number.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="motorcycles.py">
@@ -53,6 +68,12 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="squares.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="toppings.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="voting.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
