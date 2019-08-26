@@ -4,13 +4,14 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>92cf8559-071f-48df-bf08-23325656fa93</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>name_cases.py</StartupFile>
+    <StartupFile>comment.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
     <Name>Chapter2_Strings</Name>
     <RootNamespace>Chapter2_Strings</RootNamespace>
+    <InterpreterId>Global|PythonCore|3.7</InterpreterId>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -22,9 +23,18 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="apostrophe.py" />
+    <Compile Include="birthday.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="comment.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="hello_world.py" />
     <Compile Include="name.py" />
     <Compile Include="name_cases.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="Global|PythonCore|3.7" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

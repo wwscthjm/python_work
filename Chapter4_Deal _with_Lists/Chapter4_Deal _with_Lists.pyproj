@@ -2,17 +2,16 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>6608d1e2-25a7-4906-a57c-de0d40018f79</ProjectGuid>
-    <ProjectHome>
-    </ProjectHome>
+    <ProjectGuid>24a6d9ff-8336-4981-85f1-5e74966529c4</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
     <StartupFile>
     </StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>Chapter3_Brief_of_Lists</Name>
-    <RootNamespace>Chapter3_Brief_of_List</RootNamespace>
+    <Name>Chapter4_Deal _with_Lists</Name>
+    <RootNamespace>Chapter4_Deal _with_Lists</RootNamespace>
     <InterpreterId>Global|PythonCore|3.7</InterpreterId>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
@@ -25,17 +24,6 @@
   </PropertyGroup>
   <ItemGroup>
     <InterpreterReference Include="Global|PythonCore|3.7" />
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="bicycles.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="..\Chapter3_Brief_of_Lists\motorcycles.py">
-      <Link>motorcycles.py</Link>
-    </Compile>
-    <Compile Include="cars.py">
-      <SubType>Code</SubType>
-    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

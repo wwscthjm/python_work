@@ -5,7 +5,8 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{9ee88246-12b3-440c-b9f7-049744c08c8e}</ProjectGuid>
     <ProjectHome />
-    <StartupFile>bicycles.py</StartupFile>
+    <StartupFile>
+    </StartupFile>
     <SearchPath />
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
@@ -29,9 +30,6 @@
     <Compile Include="banned_users.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="bicycles.py">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Include="car.py">
       <SubType>Code</SubType>
     </Compile>
@@ -51,9 +49,6 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="magic_number.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="motorcycles.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="number.py">

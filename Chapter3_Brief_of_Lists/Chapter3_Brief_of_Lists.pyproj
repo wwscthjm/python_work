@@ -5,13 +5,14 @@
     <ProjectGuid>6608d1e2-25a7-4906-a57c-de0d40018f79</ProjectGuid>
     <ProjectHome>
     </ProjectHome>
-    <StartupFile>Chapter3_Brief_of_List.py</StartupFile>
+    <StartupFile>cars.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
     <Name>Chapter3_Brief_of_Lists</Name>
     <RootNamespace>Chapter3_Brief_of_List</RootNamespace>
+    <InterpreterId>Global|PythonCore|3.7</InterpreterId>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -22,7 +23,12 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Chapter3_Brief_of_List.py" />
+    <InterpreterReference Include="Global|PythonCore|3.7" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="bicycles.py" />
+    <Compile Include="cars.py" />
+    <Compile Include="motorcycles.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
