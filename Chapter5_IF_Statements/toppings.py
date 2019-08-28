@@ -1,6 +1,8 @@
+"""Deal with lists by IF statements"""
+
+#requested_toppings = []
 available_toppings = ['mushrooms', 'olives', 'green peppers', 'pepperoni', 'pineapple', 'extra cheese'] 
 requested_toppings = ['mushrooms', 'french fries', 'extra cheese']
-#requested_toppings = []
 
 #if 'mushrooms' in requested_toppings:
 #    print('Adding mushrooms.')

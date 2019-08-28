@@ -21,32 +21,6 @@
     <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="alien.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="amusement_park.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="banned_users.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="car.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="cars.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="magic_number.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="toppings.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="voting.py">
-      <SubType>Code</SubType>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup>
     <InterpreterReference Include="Global|PythonCore|3.7" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />

@@ -1,3 +1,5 @@
+"""Multiple ELIF codes"""
+
 age = 63
 
 if age < 4:
@@ -9,7 +11,8 @@ elif age < 18:
 elif age < 65:
     #print('Your admission cost is $10.')
     price = 10
-else:
+elif age >= 65:
+#else:
     #print('Your admission cost is $5.')
     price = 5
 

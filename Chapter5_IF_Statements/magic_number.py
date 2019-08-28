@@ -1,3 +1,5 @@
+"""Compare munbers"""
+
 answer = 17
 
 if answer != 42:

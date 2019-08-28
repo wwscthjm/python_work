@@ -1,3 +1,5 @@
+"""Sample of IF statement"""
+
 cars = ['bmw', 'auid', 'toyato', 'subaru']
 
 for car in cars:

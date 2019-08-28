@@ -1,3 +1,5 @@
+"""Check if object in the list"""
+
 banned_users = ['andrew', 'carolina', 'david']
 user = 'marie'
 
