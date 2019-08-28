@@ -36,28 +36,7 @@
     <Compile Include="cars.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="dimensions.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="even_numbers.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="foods.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="magicians.py">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Include="magic_number.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="number.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="players.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="squares.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="toppings.py">

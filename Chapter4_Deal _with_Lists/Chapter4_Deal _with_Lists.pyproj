@@ -4,8 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>24a6d9ff-8336-4981-85f1-5e74966529c4</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>
-    </StartupFile>
+    <StartupFile>dimensions.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -24,6 +23,17 @@
   </PropertyGroup>
   <ItemGroup>
     <InterpreterReference Include="Global|PythonCore|3.7" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="dimensions.py" />
+    <Compile Include="even_numbers.py" />
+    <Compile Include="foods.py" />
+    <Compile Include="magicians.py" />
+    <Compile Include="numbers.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="players.py" />
+    <Compile Include="squares.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
