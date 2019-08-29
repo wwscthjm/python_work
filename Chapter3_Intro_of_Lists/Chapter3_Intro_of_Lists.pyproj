@@ -2,17 +2,16 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>6608d1e2-25a7-4906-a57c-de0d40018f79</ProjectGuid>
-    <ProjectHome>
-    </ProjectHome>
-    <StartupFile>cars.py</StartupFile>
+    <ProjectGuid>fbd59aee-36f0-4872-9a06-ad5c35c4aff1</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>
+    </StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>Chapter3_Brief_of_Lists</Name>
-    <RootNamespace>Chapter3_Brief_of_List</RootNamespace>
-    <InterpreterId>Global|PythonCore|3.7</InterpreterId>
+    <Name>Chapter3_Intro_of_Lists</Name>
+    <RootNamespace>Chapter3_Intro_of_Lists</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -22,9 +21,6 @@
     <DebugSymbols>true</DebugSymbols>
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
-  <ItemGroup>
-    <InterpreterReference Include="Global|PythonCore|3.7" />
-  </ItemGroup>
   <ItemGroup>
     <Compile Include="bicycles.py" />
     <Compile Include="cars.py" />
