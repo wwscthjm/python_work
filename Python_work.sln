@@ -13,6 +13,10 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Chapter6_Dictionary", "Chap
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Chapter3_Intro_of_Lists", "Chapter3_Intro_of_Lists\Chapter3_Intro_of_Lists.pyproj", "{FBD59AEE-36F0-4872-9A06-AD5C35C4AFF1}"
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Chapter7_User_Input_and_While_loop", "Chapter7_User_Input_and_While_loop\Chapter7_User_Input_and_While_loop.pyproj", "{21D0BB8E-CF74-4954-89C8-F22C87930F74}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Chapter8_Function", "Chapter8_Function\Chapter8_Function.pyproj", "{AB895A22-4998-4C4A-BAC3-D1E9837D82E8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +33,10 @@ Global
 		{86487DF4-8A60-428F-8ECD-104C0E8922DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FBD59AEE-36F0-4872-9A06-AD5C35C4AFF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{FBD59AEE-36F0-4872-9A06-AD5C35C4AFF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21D0BB8E-CF74-4954-89C8-F22C87930F74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21D0BB8E-CF74-4954-89C8-F22C87930F74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB895A22-4998-4C4A-BAC3-D1E9837D82E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB895A22-4998-4C4A-BAC3-D1E9837D82E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

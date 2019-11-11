@@ -2,15 +2,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>86487df4-8a60-428f-8ecd-104c0e8922db</ProjectGuid>
+    <ProjectGuid>ab895a22-4998-4c4a-bac3-d1e9837d82e8</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>many_users.py</StartupFile>
+    <StartupFile>formatted_name.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>Chapter6_Dictionary</Name>
-    <RootNamespace>Chapter6_Dictionary</RootNamespace>
+    <Name>Chapter8_Function</Name>
+    <RootNamespace>Chapter8_Function</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -21,15 +21,13 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="alien.py" />
-    <Compile Include="favorite_languages.py" />
-    <Compile Include="many_users.py">
+    <Compile Include="formatted_name.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="pizza.py">
+    <Compile Include="greeter.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="user.py">
+    <Compile Include="pets.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>

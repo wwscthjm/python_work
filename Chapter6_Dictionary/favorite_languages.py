@@ -1,10 +1,10 @@
 """Dictionary contains same objective keys"""
 
 favorite_languages = {
-    'jen': 'python',
-    'sarah': 'c',
-    'edward': 'ruby',
-    'phil': 'python',
+    'jen': ['python', 'ruby'],
+    'sarah': ['c'],
+    'edward': ['ruby', 'go'],
+    'phil': ['python', 'haskell'],
     }
 
 #print("Sarah's favorite language is " +
@@ -33,6 +33,16 @@ favorite_languages = {
 #for language in favorite_languages.values():
 #    print(language.title())
 
-print("The following languages have been mentioned:")
-for language in set(favorite_languages.values()):                       #function set() can remove the repeat items
-    print(language.title())
+#print("The following languages have been mentioned:")
+#for language in set(favorite_languages.values()):                       #function set() can remove the repeat items
+#    print(language.title())
+
+for name, languages in favorite_languages.items():
+    if len(languages) == 1:
+        print("\n" + name.title() + "'s favorite language is:")
+        for language in languages:
+            print("\t" + language.title())
+    else:
+        print("\n" + name.title() + "'s favorite languages are:")
+        for language in languages:
+            print("\t" + language.title())
