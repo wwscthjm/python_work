@@ -1,5 +1,5 @@
-"""Positional Arguements"""
-"""Key-word Arguements"""
+"""Positional Arguments"""
+"""Key-word Arguments"""
 
 def describe_pet(pet_name, animal_type='dog'):
     """显示宠物的信息"""
