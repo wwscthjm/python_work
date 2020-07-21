@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>22a0e354-573f-461b-ac11-7d78ec50d59e</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>dog.py</StartupFile>
+    <StartupFile>electric_car.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +21,13 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="car.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="dog.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="electric_car.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
