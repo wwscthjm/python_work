@@ -56,7 +56,7 @@ class Battery():
         message = "This car can go approximayely " + str(range) + " miles on a full charge."
         print(message)
 
-class Electric_car(Car):
+class ElectricCar(Car):
     """Represent aspects of a car, specific to electric vehicles"""
 
     def __init__(self, make, model, year):
@@ -71,7 +71,7 @@ class Electric_car(Car):
         """电动汽车没有油箱"""
         print("This car doesn't need a gas tank!")
 
-my_tesla = Electric_car('tesla', 'model s', 2016)
+my_tesla = ElectricCar('tesla', 'model s', 2016)
 print(my_tesla.get_descriptive_name())
 my_tesla.battery.describe_battery()
 my_tesla.fill_gas_tank()

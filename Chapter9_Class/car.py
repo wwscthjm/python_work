@@ -1,4 +1,5 @@
 """Usage of Class and Example"""
+"""一组用于表示燃油汽车和电动汽车的类"""
 
 class Car():
     """一次模拟汽车的简单尝试"""
@@ -33,11 +34,46 @@ class Car():
         """将里程表读数增加指定的量"""
         self.odometer_reading += miles
 
-my_new_car = Car('subaru', 'outback', 2013)
-print(my_new_car.get_descriptive_name())
+class Battery():
+    """一次模拟电动汽车电瓶的简单尝试"""
+    def __init__(self, battery_size = 85):
+        """初始化电瓶属性"""
+        self.battery_size = battery_size
 
-my_new_car.update_odometer(23500)
-my_new_car.read_odometer()
+    def describe_battery(self):
+        """打印一条描述电瓶容量的信息"""
+        print("This car has a " + str(self.battery_size) + "-kWh battery.")
+        
+    def get_range(self):
+        """打印一条消息，指出电瓶的续航里程"""
+        if self.battery_size == 70:
+            range = 240
+        elif self.battery_size == 85:
+            range = 270
 
-my_new_car.increment_odometer(100)
-my_new_car.read_odometer()
+        message = "This car can go approximayely " + str(range) + " miles on a full charge."
+        print(message)
+
+class ElectricCar(Car):
+    """Represent aspects of a car, specific to electric vehicles"""
+
+    def __init__(self, make, model, year):
+        """
+        初始化父类属性
+        再初始化电动汽车特有的属性
+        """
+        super().__init__(make, model, year)
+        self.battery = Battery()
+
+    def fill_gas_tank(self):
+        """电动汽车没有油箱"""
+        print("This car doesn't need a gas tank!")
+
+#my_new_car = Car('subaru', 'outback', 2013)
+#print(my_new_car.get_descriptive_name())
+
+#my_new_car.update_odometer(23500)
+#my_new_car.read_odometer()
+
+#my_new_car.increment_odometer(100)
+#my_new_car.read_odometer()
