@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>9c4f2007-b277-4572-a175-e21a1e09c082</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>file_reader.py</StartupFile>
+    <StartupFile>remember_me.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,12 +21,45 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="alice.txt" />
+    <Content Include="little_women.txt" />
+    <Content Include="moby_dict.txt" />
+    <Content Include="numbers.json" />
     <Content Include="pi_digits.txt">
       <SubType>Code</SubType>
     </Content>
+    <Content Include="pi_million_digits.txt" />
+    <Content Include="programming.txt" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="alice.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="division.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="file_reader.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="greet_user.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="number_reader.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="number_writer.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="pi_string.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="remember_me.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="word_count.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="write_message.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
