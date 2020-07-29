@@ -2,15 +2,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>e3439c11-7c5b-4b2a-9bc1-d3a1e862fe60</ProjectGuid>
+    <ProjectGuid>de3b7654-4edf-4fd7-98df-3295e91ee30f</ProjectGuid>
     <ProjectHome>.</ProjectHome>
     <StartupFile>alien_invasion.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>Chapter12_Armed_Spaceships</Name>
-    <RootNamespace>Chapter12_Armed_Spaceships</RootNamespace>
+    <Name>Chapter12+13+14</Name>
+    <RootNamespace>Chapter12+13+14</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -21,15 +21,14 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="alien_invasion.py">
+    <Compile Include="alien.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="settings.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="ship.py">
-      <SubType>Code</SubType>
-    </Compile>
+    <Compile Include="alien_invasion.py" />
+    <Compile Include="bullet.py" />
+    <Compile Include="game_functions.py" />
+    <Compile Include="settings.py" />
+    <Compile Include="ship.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
