@@ -2,16 +2,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>66a5800f-eaa6-48bb-8694-c270df7ca42e</ProjectGuid>
+    <ProjectGuid>4c2e916a-d1e0-47b1-bcc8-88635de50ec7</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>test_survey.py</StartupFile>
+    <StartupFile>Chapter12_Armed_Spaceship.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>Chapter11_Code_Testing</Name>
-    <RootNamespace>Chapter11_Code_Testing</RootNamespace>
-    <TestFramework>Pytest</TestFramework>
+    <Name>Chapter12_Armed_Spaceship</Name>
+    <RootNamespace>Chapter12_Armed_Spaceship</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -22,24 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="language_survey.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="names.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="name_function.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="survey.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="test_name_function.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="test_survey.py">
-      <SubType>Code</SubType>
-    </Compile>
+    <Compile Include="Chapter12_Armed_Spaceship.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
