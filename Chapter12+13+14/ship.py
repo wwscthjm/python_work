@@ -1,10 +1,12 @@
 import pygame
+from pygame.sprite import Sprite
 
-class Ship():
+class Ship(Sprite):
     """Behaviors of ships"""
 
     def __init__(self, ai_settings, screen):
         """Initialize ship and set initial position"""
+        super().__init__()
         self.screen = screen
         self.ai_settings = ai_settings
 
@@ -45,3 +47,12 @@ class Ship():
     def blitme(self):
         """Print ship at the given position"""
         self.screen.blit(self.image, self.rect)
+
+    def center_ship(self):
+        """Hold back ship to its original location"""
+        self.center = [float(self.screen_rect.centerx), float(self.screen_rect.bottom)]
+
+    def hold_back_ship(self):
+        """Make sure the ship does not hit the new fleet"""
+        self.center[1] = self.screen.get_rect().bottom
+        self.blitme()
