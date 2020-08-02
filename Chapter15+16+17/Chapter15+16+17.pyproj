@@ -27,6 +27,12 @@
     <Compile Include="mpl_squares.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="random_walk.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="rw_visual.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="scatter_squares.py">
       <SubType>Code</SubType>
     </Compile>
