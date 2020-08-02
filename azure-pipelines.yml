@@ -12,11 +12,8 @@ pool:
   vmImage: 'ubuntu-latest'
 
 steps:
-- script: echo Hello, world!
-  displayName: 'Run a one-line script'
-
 - script: |
     git remote add github https://wwscthjm%40gmail.com:W3151953404wwscthjm@github.com/wwscthjm/Python.git
     git checkout -b $(branch)
     git push -u github $(branch)
-  displayName: 'Run a multi-line script'
+  displayName: 'Command Line Script'
