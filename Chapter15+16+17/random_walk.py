@@ -18,13 +18,8 @@ class RandomWalk:
         # Walk nonstop, until lists have given length
         while len(self.x_values) < self.num_points:
             # Choose direction and distance on this direction
-            x_direction = choice([1, -1])
-            x_distance = choice(range(5))
-            x_step = x_direction * x_distance
-
-            y_direction = choice([1, -1])
-            y_distance = choice(range(5))
-            y_step = y_direction * y_distance
+            x_step = self.get_step()
+            y_step = self.get_step()
 
             # Avoid step unmoved
             if x_step == 0 and y_step == 0:
@@ -36,3 +31,10 @@ class RandomWalk:
 
             self.x_values.append(next_x)
             self.y_values.append(next_y)
+
+    @staticmethod
+    def get_step():
+        """Calculate step vector"""
+        direction = choice([1, -1])
+        distance = choice(range(9))
+        return direction * distance
