@@ -9,14 +9,14 @@ class RandomWalk:
         self.num_points = num_points
 
         # All random walk starts with (0, 0)
-        self.x_value = [0]
-        self.y_value = [0]
+        self.x_values = [0]
+        self.y_values = [0]
 
     def fill_walk(self):
         """Calculate all points in random walk"""
 
         # Walk nonstop, until lists have given length
-        while len(self.x_value) < self.num_points:
+        while len(self.x_values) < self.num_points:
             # Choose direction and distance on this direction
             x_direction = choice([1, -1])
             x_distance = choice(range(5))
@@ -31,8 +31,8 @@ class RandomWalk:
                 continue
 
             # Calculate next point's x-y values
-            next_x = self.x_value[-1] + x_step
-            next_y = self.y_value[-1] + y_step
+            next_x = self.x_values[-1] + x_step
+            next_y = self.y_values[-1] + y_step
 
-            self.x_value.append(next_x)
-            self.y_value.append(next_y)
+            self.x_values.append(next_x)
+            self.y_values.append(next_y)
