@@ -13,7 +13,7 @@ pool:
 
 steps:
 - script: |
-    git remote add github https://wwscthjm%40gmail.com:W3151953404wwscthjm@github.com/wwscthjm/Python.git
+    git remote add github https://wwscthjm%40gmail.com:W3151953404wwscthjm@github.com/wwscthjm/python_work.git
     git checkout -b $(branch)
     git push -u github $(branch)
   displayName: 'Command Line Script'
