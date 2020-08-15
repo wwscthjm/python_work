@@ -1,7 +1,6 @@
 """Download File"""
 
 # import requests
-#
 # json_url = 'https://raw.githubusercontent.com/muxuezi/btc/master/btc_close_2017.json'
 # req = requests.get(json_url)
 # # Write in file
