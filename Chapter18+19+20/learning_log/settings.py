@@ -145,6 +145,11 @@ if cwd == '/app' or cwd[:4] == '/tmp':
     # Let request.is_secure() acknowledge X-Forwarded-Proto head
     SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 
+    # Allow heroku take over this project
+    ALLOWED_HOSTS = ['fathomless-island-61466.herokuapp.com']
+
+    DEBUG = False
+
     # Support all host header
     ALLOWED_HOSTS = ['*']
 
